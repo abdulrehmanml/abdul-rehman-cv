@@ -99,6 +99,10 @@ a:hover {
     line-height: 1.5;
 }
 
+#summary p {
+    text-align: justify;
+}
+
 /* ================= EDUCATION ================= */
 
 .education-header {
@@ -146,8 +150,8 @@ a:hover {
 /* ================= PROJECTS ================= */
 
 .project {
-    margin-bottom: 17px;
-    padding-bottom: 11px;
+    margin-bottom: 14px;
+    padding-bottom: 9px;
     border-bottom: 1px solid #eeeeee;
 }
 
@@ -180,6 +184,10 @@ a:hover {
     font-size: 11.5px;
     line-height: 1.45;
     margin-bottom: 3px;
+}
+
+.justify-text {
+    text-align: justify;
 }
 
 .project-links {
@@ -232,12 +240,16 @@ a:hover {
         width: 210mm;
         min-height: auto;
         margin: 0;
-        padding: 8mm 14mm;
-        zoom: 0.98;
+        padding: 7mm 14mm;
+        zoom: 0.96;
+    }
+
+    .headline {
+        font-size: 14px;
     }
 
     .section {
-        margin-top: 12px;
+        margin-top: 10px;
     }
 
     .section p {
@@ -245,8 +257,8 @@ a:hover {
     }
 
     .project {
-        margin-bottom: 10px;
-        padding-bottom: 6px;
+        margin-bottom: 7px;
+        padding-bottom: 5px;
     }
 
     .project li {
@@ -257,6 +269,24 @@ a:hover {
     a {
         color: #222222;
         text-decoration: none;
+    }
+
+    .profile-links a {
+        font-size: 0;
+    }
+    
+    .profile-links a i {
+        font-size: 12px;
+    }
+    
+    .profile-links a[href*="github.com"]::after {
+        content: "github.com/abdulrehmanml";
+        font-size: 12px;
+    }
+    
+    .profile-links a[href*="linkedin.com"]::after {
+        content: "linkedin.com/in/abdul-rehmanmughal";
+        font-size: 12px;
     }
 }
 
