@@ -34,8 +34,9 @@ body {
 
 .headline {
     margin: 6px 0 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .contact-info,
@@ -245,7 +246,8 @@ a:hover {
     }
 
     .headline {
-        font-size: 14px;
+        font-size: 13px;
+        white-space: nowrap;
     }
 
     .section {
@@ -274,16 +276,16 @@ a:hover {
     .profile-links a {
         font-size: 0;
     }
-    
+
     .profile-links a i {
         font-size: 12px;
     }
-    
+
     .profile-links a[href*="github.com"]::after {
         content: "github.com/abdulrehmanml";
         font-size: 12px;
     }
-    
+
     .profile-links a[href*="linkedin.com"]::after {
         content: "linkedin.com/in/abdul-rehmanmughal";
         font-size: 12px;
